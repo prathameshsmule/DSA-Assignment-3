@@ -4,7 +4,6 @@ function findIntersection(arr1, arr2) {
     for (let i = 0; i < arr2.length; i++) {
         arr2Elements[arr2[i]] = true;
     }
-
     for (let i = 0; i < arr1.length; i++) {
         
         if (arr2Elements[arr1[i]] && !intersection.includes(arr1[i])) {
