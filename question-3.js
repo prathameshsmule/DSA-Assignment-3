@@ -2,7 +2,6 @@ function findSecondLargest(arr) {
     if (arr.length < 2) {
         return null; // Not enough elements to find the second largest
     }
-
     let largest = -Infinity;
     let secondLargest = -Infinity;
 
@@ -15,8 +14,6 @@ function findSecondLargest(arr) {
             secondLargest = arr[i]; 
         }
     }
-
- 
     return secondLargest === -Infinity ? null : secondLargest;
 }
 
